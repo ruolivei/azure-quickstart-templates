@@ -1,0 +1,46 @@
+{
+ "properties": {
+  "displayName": "darden2policy",
+  "policyType": "Custom",
+  "description": "some policies",
+  "metadata": {
+   "category": "infrastructure",
+   "parameterScopes": {
+    "listOfAllowedSKUs": "/subscriptions/0ca3a1b3-f9c8-44e0-92e5-1ea2e6f5138b",
+    "listOfAllowedLocations": "/subscriptions/0ca3a1b3-f9c8-44e0-92e5-1ea2e6f5138b"
+   },
+   "createdBy": "6d8f14f8-3be5-4d6d-a631-3983f7f36bd1",
+   "createdOn": "2019-05-23T13:34:12.2138431Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "1915643752116955068",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/cccc23c7-8427-4f53-ad12-b6a63eb452b3",
+    "parameters": {
+     "listOfAllowedSKUs": {
+      "value": [
+       "Standard_DS1"
+      ]
+     }
+    }
+   },
+   {
+    "policyDefinitionReferenceId": "1798487553432871135",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/e56962a6-4747-49cd-b67b-bf8b01975c4c",
+    "parameters": {
+     "listOfAllowedLocations": {
+      "value": [
+       "eastus"
+      ]
+     }
+    }
+   }
+  ]
+ },
+ "id": "/subscriptions/0ca3a1b3-f9c8-44e0-92e5-1ea2e6f5138b/providers/Microsoft.Authorization/policySetDefinitions/006c4b3c-c27d-44e6-81cc-baf4de9acd72",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "006c4b3c-c27d-44e6-81cc-baf4de9acd72"
+}
